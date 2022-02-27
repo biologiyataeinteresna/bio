@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Биологията е интересна
+</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+<style>
+#hamnav {
+  width: 100%;
+  background: #3c3c3c;
+  position: sticky;
+  top: 0;
+}
+
+#hamnav label, #hamburger { display: none; }
+
+#hamitems { display: flex; }
+
+#hamitems a {
+  width: 25%; /* 100% / 4 tabs = 25% */
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover {
+  background: #787878;
+}
+
+@media screen and (max-width: 768px){
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  #hamitems { display: none; }
+  
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2{
+margin-left:40px;
+color:red;
+font-family: 'Neucha', cursive; }
+
+h4{
+margin-left:20px;
+color:GoldenRod;
+font-family: 'Neucha', cursive; 
+}
+
+p{margin-left:20px;
+color:#3c3c3c;
+font-family: 'Oswald', sans-serif;}
+
+img{
+float:right;}
+
+iframe{margin-left:100px;}
+
+header{
+	padding: 10px;
+	margin-left:0px;
+    height: 120px;
+	border: 1px solid #3c3c3c;
+	background-color:Khaki;
+	}
+	 
+header h1{font-family: 'Oswald', sans-serif;                 
+	      text-align:center;
+	      color:#3c3c3c;	
+	}
+	
+.b{margin-left:140px;}
+
+.d{margin-left:200px;}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>Биологията е интересна</h1>
+</header>
+<nav id="hamnav">
+  <!-- [THE HAMBURGER] -->
+  <label for="hamburger">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+ 
+  <!-- [MENU ITEMS] -->
+  <div id="hamitems">
+<a href="index.html">Начало</a>
+<a href="index6.html">Кремъчни водорасли</a>
+<a href="index3.html">Кесонова болест</a>
+<a href="index5.html">Коприна</a>
+<a href="index4.html">Памук, лен, коноп</a>
+<a href="index7.html">Пух за якета</a>
+  </div>
+</nav>
+
+<br>
+<h2>Как растенията общуват?</h2>
+<p>Много видове растения установяват симбиотични взаимодействия с микоризни гъби. Тази симбиоза позволява на отделните растения да предават сигнали едно на друго. Чрез нея се осигурява обмен на хранителни вещества и вода, но това не е единственото преимущество, което тя дава. Свързването на 9 от 10 наземни растения в комуникационна мрежа позволява изпращане на предупредителни сигнали. Дърво, заразено с насекоми изпраща сигнал на околните да се запасят с инсектициди. При експеримент с две микоризно свързани растения, отделени с преграда по въздух, се наблюдава следното: ако едното растения бъде заразено с мана, 3 дни по-късно другото растение ще е развило резистентност към заболяването. Друго преимущество, което тази симбиоза носи, е натрупавеното на синтезирани от гъбата защитни вещества в корените на растението. Някои растения като черния орех използват тази комуникационна мрежа, за да спират развитието на други растения около тях.
+</p>
+<br>
+<img src="photo.jpg"  alt="png" width="380" height="230">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>
+Източници на информация:
+<br>
+<a href="https://www.gardeningknowhow.com">gardeningknowhow.com</a>
+</br>
+<a href="https://mushroomzoom.com">mushroomzoom.com</a></p>
+<h4>Copyright Anelia Lozanova & Ivan Boianov 2022</h4>
+<br><br><br>
+</body>
+</html>

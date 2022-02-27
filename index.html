@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Биологията е интересна
+</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+<style>
+*{
+box-sizing: border-box;
+	}
+	
+.row::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
+
+  /* For desktop: */	
+	.col-1{width: 8.33%;}
+	.col-2{width: 16.66%;}
+	.col-3{width: 25%;}
+	.col-4{width: 33.33%;}
+	.col-5{width: 41.66%;}
+	.col-6{width: 50%;}
+	.col-7{width: 58.33%;}
+	.col-8{width: 66.66%;}
+	.col-9{width: 75%;}
+	.col-10{width: 83.33%;}
+	.col-11{width: 91.66%;}
+	.col-12{width: 100%;}
+	
+	
+header{
+	padding: 15px;
+	margin-left: 0px;
+    height: 150px;
+	border: 1px solid lightgray;
+	background-color:#fafe6b;
+	}
+	 
+header h1{font-family: 'Oswald', sans-serif;               
+	      text-align:center;
+	      color: black;}
+		  
+	h1{font-family: 'Neucha', cursive;
+	    color:black;
+		}
+	
+	h2{font-family: 'Neucha', cursive;
+	    color:black;
+		}
+		
+		#charlie{
+		font-family: 'Neucha', cursive;
+	    color:black;
+		text-align:center;}
+	
+    p{font-family: 'Oswald', sans-serif;
+		color: #009bff ;
+	}
+	
+	.menu ul{
+	  list-style-type: none;
+	  padding: 0px; 
+	}
+	
+	.menu li{
+	 padding: 10px;
+	 margin-bottom: 5px;
+	 background-color: #fafe6b;
+	 border-left: 4px solid #009bff;
+	}
+	
+	.menu a:link{
+	 text-decoration: none;
+	}
+	
+	.menu li:hover{
+	  background-color: #ccc;
+	}
+	img{
+	width:260px;
+	height:260px;
+	float:right;}
+	
+
+#hamnav {
+  width: 100%;
+  
+  
+}
+
+
+#hamnav label, #hamburger { 
+  display: none; 
+  margin-left: 92%;
+
+}
+
+
+
+#hamitems { display: flex; }
+
+#hamitems a {
+  padding: 10px;
+  text-decoration: none;
+  color:black;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+ /* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}	
+  
+
+header{
+	padding-left: 0;
+}
+header h1{
+	margin-left: 0%;
+	padding-left: 0;
+
+}
+
+
+
+ #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+	font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+left
+
+  }
+  
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+
+
+</style>
+</head>
+<body>
+<header>
+<h1>Биологията е интересна</h1>
+</header>
+<div class="row">
+
+<div class="col-9">
+
+
+<h1>Статии:</h1>
+<div class="col-3 menu">
+<nav id="hamnav">
+<!--[ THE HAMBURGER]-->
+<label for="hamburger"></label>
+<input type="checkbox" id="hamburger">
+<div id="hamitems">
+<ul>
+<li><a href="index2.html">Как растенията общуват?</a></li>
+<li><a href="index6.html">Кремъчни водорасли</a></li>
+<li><a href="index3.html">Кесонова болест</a></li>
+<li><a href="index5.html">Коприна</a></li>
+<li><a href="index4.html">Памук, лен, коноп</a></li>
+<li><a href="index7.html">Пух за якета</a></li>
+</ul>
+</div>
+</nav>
+</div>
+
+<h2>"Нито най-силният оцелява, нито най-интелигентният.
+<br>
+Оцелява този, който е най-приспособим към промените."
+<br>
+<br>
+<div id="charlie">
+Ч. Дарвин
+</div>
+</h2>
+<br><br><br><br>
+<h1>За страницата...</h1>
+<p>Тази страница е изградена с цел да упражнявам научените неща за писането на html, като правя това, съчетавайки го с една от любимите ми дисциплини - биологията. Надявам се нещата, които ще видите тук да ви се сторят полезни и интересни. Ще бъда много благодарен, ако при проблеми със страницата се свържете с мен на имейл <i>ivanboianov13.3@gmail.com</i>.</p>
+</div>
+<img src="gif.gif"></img>
+
+</div>
+<p>Copyright Anelia Lozanova & Ivan Boianov 2022</p>
+
+</body>
+</html>

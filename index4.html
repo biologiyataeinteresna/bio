@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Биологията е интересна
+</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?
+family=Oswald">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+<style>
+#hamnav {
+  width: 100%;
+  background: #3c3c3c;
+  position: sticky;
+  top: 0;
+}
+
+#hamnav label, #hamburger { display: none; }
+
+#hamitems { display: flex; }
+
+#hamitems a {
+  width: 25%; /* 100% / 4 tabs = 25% */
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover {
+  background: #787878;
+}
+
+@media screen and (max-width: 768px){
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  #hamitems { display: none; }
+  
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2{
+margin-left:40px;
+color:DarkGreen;
+font-family: 'Neucha', cursive;}
+
+h3{
+margin-left:20px;
+color:#ff1e2a;
+font-family: 'Neucha', cursive;
+}
+
+h4{
+margin-left:20px;
+color:GoldenRod;
+font-family: 'Neucha', cursive; 
+}
+
+p{margin-left:20px;
+color:#3c3c3c;
+font-family: 'Oswald', sans-serif;}
+
+img{margin-right:120px;
+float:right;}
+
+iframe{margin-left:100px;}
+
+header{
+	padding: 10px;
+	margin-left: 0px;
+    height: 120px;
+	border: 1px solid #3c3c3c;
+	background-color:LightGreen;
+	}
+	 
+header h1{                
+	text-align:center;
+	color: #3c3c3c;	
+	font-family: 'Oswald', sans-serif;
+	}
+	
+
+
+</style>
+</head>
+<body>
+
+
+<header>
+<h1>Билогията е интересна</h1>
+</header>
+<nav id="hamnav">
+  <!-- [THE HAMBURGER] -->
+  <label for="hamburger">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+
+  <!-- [MENU ITEMS] -->
+  <div id="hamitems">
+<a href="index.html">Начало</a>
+<a href="index2.html">Как растенията общуват?</a>
+<a href="index6.html">Кремъчни водорасли</a>
+<a href="index3.html">Кесонова болест</a>
+<a href="index5.html">Коприна</a>
+<a href="index7.html">Пух за якета</a>
+  </div>
+</nav>
+
+<br>
+<h2>Памук, лен и коноп</h2>
+<br>
+<h3>Памук</h3>
+<p>Влакната на памука се извличат от семенната кутийка на растението. Полученото влакно намира широко приложение в производството на плат. Сведения за памучен плат има от преди повече от 7000 години.</p>
+<img src="cotti.jpg"  alt="jpg" width="200" height="180"><br><br><br><br><br><br><br>
+<h3>Лен</h3>
+<p>Влакно от лен от своя страна се извлича от стъблото. Отделните влакна са слепени с пектин. За разрушаването му се използва нагряване. После се прилагат различни техники. Накрая влакната се сресват. Важно е да се отбележи, че влакнодайния и маслодайния лен са различни.</p>
+<br>
+<img src="leini.jfif"  alt="jfif" width="190" height="200"><br><br><br><br><br>
+<br>
+<h3>Коноп</h3>
+<p>От стъблото на конопа се извлича грубо влакно. Това става като стъблото се накисне в течаща вода за продължително време. Този процес може да отнеме до 3 години. Полученото влакно е изключително издръжливо на солена вода, но е доста грубо и не се използва за дрехи масово.</p>
+<br>
+<img src="hempy.jfif"  alt="jfif" width="280" height="180"><br><br><br><br><br>
+<p>
+Източници на информация:
+<br>
+<a href="https://en.wikipedia.org/wiki/Cotton">wikipedia.org/cotton</a>
+</br>
+<a href="https://de.wikipedia.org/wiki/Lein">wikipedia.org/lein</a>
+<br>
+<a href="https://www.konop.bg/article/52">konop.bg</a>
+</br>
+<a href="https://www.testextextile.com">testextextile.com</a></p>
+<h4>Copyright Anelia Lozanova & Ivan Boianov 2022</h4>
+</body>
+</html>
